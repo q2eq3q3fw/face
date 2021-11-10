@@ -50,7 +50,7 @@ TextButton.TextScaled = true
 TextButton.TextSize = 14.000
 TextButton.TextWrapped = true
 TextButton.MouseButton1Click:connect(function()
-	if TextBox.Text == "Arab Community on dot" then
+	if TextBox.Text == "Arab Community on top" then
 		print("correct")
 		Frame.Visible = false
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/DOTONTOP/dot-script/main/dot"))()
